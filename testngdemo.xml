@@ -12,7 +12,7 @@
   
   
    <test thread-count="5"  name="Test2">
-  <parameter name="Boo" value="chrome"></parameter>
+  <parameter name="Boo" value="firefox"></parameter>
     <classes>
       <class name="testng.Paralleldemo"/>
     </classes>

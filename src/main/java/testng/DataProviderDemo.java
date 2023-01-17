@@ -12,12 +12,9 @@ import org.testng.annotations.Test;
 public class DataProviderDemo {
 	
 	
-
-
-	public class Demo {
-
-		@DataProvider
-		public Object getData() {
+	         @DataProvider
+            public Object getData()
+            {
 			Object[][] obj = new Object[4][2];
 			obj[0][0] = "1234777772";
 			obj[0][1] = "1234566565";
@@ -50,4 +47,4 @@ public class DataProviderDemo {
 
 	}
 
-}
+

@@ -55,6 +55,32 @@ public class JavaScriptUtil {
 	
 	}
 	
+	public static void sendkeysByJS(WebDriver driver,WebElement element)
+	{
+		
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		//find the xpath of element and pass it in element place
+//enter the text inside value ='' here we cannot enter text from called class here we shud enter txt
+		js.executeScript("arguments[0].value='*****hello world*****';", element);
+		
+		
+	}
 	
+	
+	
+	
+    
+	
+		public static void clearByJS(WebDriver driver,WebElement element)
+		{
+			
+			JavascriptExecutor js=(JavascriptExecutor)driver;
+			//find the xpath of element and pass it in element place
+	
+			js.executeScript("arguments[0].value='';", element);
+			
+			
+		}
+
 	
 	}

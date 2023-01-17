@@ -14,10 +14,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class PropertyFileDemo {
 
-	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
+	
 
-    
+    public static void getdata() throws IOException
+    {
+		
 		FileInputStream fis=new FileInputStream("./data.properties");
 	
 		Properties pdata=new Properties();	
